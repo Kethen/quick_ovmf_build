@@ -3,6 +3,7 @@ then
 	(
 		git clone https://github.com/tianocore/edk2.git
 		cd edk2
+		git checkout edk2-stable202511
 		git submodule update --init --recursive
 	)
 fi
